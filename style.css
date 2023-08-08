@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
 body{
     margin: 0;
     padding: 0;
@@ -37,9 +40,63 @@ flex-shrink: 0;
 }
 
 .banner_container{
-    background-image: url("../../images/banner.jpeg");
+    background-image: url("../../images/banner.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    background-position: center center;
     width: 100%;
     height: 612px;
+    padding: 11px 0px;
+    position: relative;
+}
+
+.banner_container-all_texts{
+    position: absolute;
+    right: 380px;
+    top: 78px;
+    
+}
+
+.banner_container-all_texts-paragraph{
+    color: var(--black-1, #2F302C);
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 140% */
+}
+
+.banner_container-all_texts-heading{
+    color: var(--black-1, #2F302C);
+    font-family: Montserrat;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.2px;
+}
+
+.banner_container-all_texts-gallery{
+    color: #2F302C;
+font-family: Montserrat;
+font-size: 96px;
+font-style: normal;
+font-weight: 700;
+line-height: 100px;
+}
+
+.straight_line{
+    width: 308px;
+height: 1px;
+background-color: #2F302C;
+}
+
+.banner_container-all_texts-minitext{
+    color: var(--black-3, #7E7F7C);
+    width: 374px;
+/* H3/16/Medium */
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 125% */
 }
